@@ -1,6 +1,6 @@
 # deno-snowflake
 
-![Testing](https://github.com/actions/n1c00o/deno-snowflake/workflows/testing/badge.svg?branch=main) [![nest badge](https://nest.land/badge.svg)](https://nest.land/package/deno_snowflake) [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/deno_snowflake/snowflake.ts)
+![Tests](https://github.com/n1c00o/deno-snowflake/workflows/testing/badge.svg?branch=main) [![nest badge](https://nest.land/badge.svg)](https://nest.land/package/deno_snowflake) [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/deno_snowflake/snowflake.ts)
 
 ❄ Deno module to work with Twitter's Snowflake technology
 
