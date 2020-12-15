@@ -1,0 +1,5 @@
+.idea/**
+.vscode/**
+*.log
+eggs-debug.log
+.github/**

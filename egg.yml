@@ -1,0 +1,19 @@
+name: deno_snowflake
+entry: ./snowflake.ts
+description: Deno module to work with the Twitter's Snowflake technology
+homepage: 'https://github.com/n1c00o/deno-snowflake'
+unstable: false
+unlisted: false
+version: 0.0.1
+files:
+  - README.md
+  - CHANGELOG.md
+  - LICENSE
+  - CONTRIBUTING.md
+  - CODE_OF_CONDUCT
+  - snowflake_test.ts
+checkFormat: true
+checkTest: true
+checkInstallation: false
+check: true
+ignore: []
