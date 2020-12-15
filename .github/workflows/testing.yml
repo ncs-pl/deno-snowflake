@@ -1,0 +1,16 @@
+name: testing
+on: 
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Run the defined tests
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setting up Deno
+        uses: denolib/setup-deno@v2
+        with:
+            deno-version: 1.6.1
+      - run: deno test
+  

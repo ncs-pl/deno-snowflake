@@ -1,0 +1,21 @@
+name: linting
+on: 
+  push:
+    paths:
+      - "**.ts"
+  pull_request:
+    paths:
+      - "**.ts"
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: Format and lint TypeScript files
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setting up Deno
+        uses: denolib/setup-deno@v2
+        with:
+            deno-version: 1.6.1
+      - run: deno fmt
+      - run: deno --unstable lint
+  
