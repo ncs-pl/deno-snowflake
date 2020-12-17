@@ -4,7 +4,7 @@ description: Deno module to work with the Twitter's Snowflake technology
 homepage: 'https://github.com/n1c00o/deno-snowflake'
 unstable: false
 unlisted: false
-version: 0.0.1
+version: 1.0.0 
 files:
   - README.md
   - CHANGELOG.md

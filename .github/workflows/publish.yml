@@ -12,7 +12,7 @@ jobs:
         name: Setting up Deno
         with:
           deno-version: 1.6.1
-      - run: deno install -Af --unstable https://x.nest.land/eggs@0.3.1/eggs.ts
+      - run: deno install -Af --unstable https://raw.githubusercontent.com/nestdotland/eggs/master/eggs.ts
       - run: |
           export PATH="/home/runner/.deno/bin:$PATH"
           eggs link ${{ secrets.NEST_API_KEY }}
