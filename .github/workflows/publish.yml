@@ -16,4 +16,4 @@ jobs:
       - run: |
           export PATH="/home/runner/.deno/bin:$PATH"
           eggs link ${{ secrets.NEST_API_KEY }}
-          eggs publish
+          eggs publish -y
