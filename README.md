@@ -65,9 +65,8 @@ You need [deno](https://deno.land/) to use this deno module.
 Import the module to use it.
 
 ```ts
-import * as Snowflake from 'https://x.nest.land/deno_snowflake@0.0.1/snowflake.ts';
-// import * as Snowflake from "https://denopkg.com/n1c00o/deno-snowflake/snowflake.ts";
-// import * as Snowflake from "https://deno.land/x/oak/snowflake.ts";
+import * as Snowflake from 'https://x.nest.land/deno_snowflake@1.0.1/snowflake.ts';
+// import * as Snowflake from "https://deno.land/x/deno_snowflake/snowflake@v1.0.1.ts";
 ```
 
 ## Documentation
