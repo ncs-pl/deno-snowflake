@@ -8,7 +8,7 @@
 
 ## Explication
 
-Snowflake is, according to the [official and archived repository](https://github.com/twitter-archivesnowflake/tree/snowflake),
+Snowflake is, according to the [official and archived repository](https://github.com/twitter-archive/snowflake),
 is a service for generating unique ID numbers at high scale.
 
 ### Original Twitter's Snowflake format
